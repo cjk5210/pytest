@@ -1,3 +1,5 @@
+import random
+
 #https://www.liaoxuefeng.com/
 def testPrint():
     print('100+200=',100+200)
@@ -65,7 +67,7 @@ def testRange():
     for i in range(5, -1, -1):
         print(i)
 
-testRange()
+#testRange()
 # 5
 # 7
 # 9
@@ -77,5 +79,27 @@ testRange()
 # 1
 # 0
 #cjk
+def testParameter():
+    print('Hello',end=' ')
+    print('World')
+    print('cats','dogs','mice',sep=',')
 
 
+#testParameter()
+def guessGame():
+    secretNumber=random.randint(1,20)
+    print('I am thinking of a number between 1 and 20.')
+    for guessesTaken in range(1,7):
+        print('Take a guess.')
+        guess=int(input())
+        if guess<secretNumber:
+            print('Your answer is too low.')
+        elif guess>secretNumber:
+            print('Your answer is too high.')
+        else:
+            break
+    if guess==secretNumber:
+        print('Good job! You guessed my number in '+str(guessesTaken)+' guesess')
+    else:
+        print('Nope.The number I was thinking of was '+ str(secretNumber))
+guessGame()
