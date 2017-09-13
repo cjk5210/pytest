@@ -4,3 +4,4 @@ def testFor():
     print('globle takes=',takes)
 #takes is a global variable,not including the for loop
 
+testFor()
