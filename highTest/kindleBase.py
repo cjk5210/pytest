@@ -65,7 +65,7 @@ def testRange():
     for i in range(5, -1, -1):
         print(i)
 
-# testRange()
+testRange()
 # 5
 # 7
 # 9
