@@ -38,4 +38,23 @@ def someOperateAboutPath():
 #someOperateAboutPath()
 
 def checkAvailableOfTheFileAndPath():
-    pass
+    print('The path ','c:\\Windows is exists ',os.path.exists('c:\\Windows'),'.')
+    print ('The path ','c:\\some_made_up_folder is exists ',os.path.exists('c:\\some_made_up_exists'),'.')
+    print('The string ','c:\\Windows\\System32 is a path ',os.path.isdir('c:\\Windows\\System32'),'.')
+    print('The string ','c:\\Windows\\System32\\calc.exe is a file',os.path.isfile('c:\\Windows\\System32\\calc.exe'),'.')
+#checkAvailableOfTheFileAndPath()
+def readOrWriteFile():
+    helloFile=open('E:\\tensor\\pytest\\pytest\\testDef\\helloFile.txt','w')
+    helloFile.write('hello world!\n')
+    helloFile.close()
+    helloFile=open('e:\\tensor\\pytest\\pytest\\testDef\\helloFile.txt','r')
+
+    #print(helloFile)
+    helloFile.close()
+    helloFile=open('e:\\tensor\\pytest\\pytest\\testDef\\helloFile.txt','a')
+    helloFile.write('hello world again!\n')
+    helloFile.close()
+    helloFile=open('e:\\tensor\\pytest\\pytest\\testDef\\helloFile.txt')#without the second parameter the default open mode is only read.
+    helloFile
+    #print(helloFile)
+readOrWriteFile()
