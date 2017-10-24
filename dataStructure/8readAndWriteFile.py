@@ -1,9 +1,10 @@
 
 
 
-# The path of test is 'E:\tensor\pytest\pytest\operateFile'
+# The path of test is 'E:\tensor\pytest\pytest\operateFile' or 'E:\tensor\pytest\pytest\testDef'
 
 import os
+import shelve
 
 def getCwd():
     cwd=os.getcwd()
@@ -45,16 +46,31 @@ def checkAvailableOfTheFileAndPath():
 #checkAvailableOfTheFileAndPath()
 def readOrWriteFile():
     helloFile=open('E:\\tensor\\pytest\\pytest\\testDef\\helloFile.txt','w')
-    helloFile.write('hello world!\n')
+    helloFile.write('hello world!\nhello world2!!!\n')
     helloFile.close()
     helloFile=open('e:\\tensor\\pytest\\pytest\\testDef\\helloFile.txt','r')
-
-    #print(helloFile)
+    alllines = helloFile.readlines()
+    helloFile2=open('e:\\tensor\\pytest\\pytest\\testDef\\helloFile.txt','r').read()
+    print('start : ',helloFile2)
+    for line in alllines:
+        print(line)
     helloFile.close()
     helloFile=open('e:\\tensor\\pytest\\pytest\\testDef\\helloFile.txt','a')
-    helloFile.write('hello world again!\n')
+    helloFile.write('The second time of print \'hello world again!\'\n')
     helloFile.close()
     helloFile=open('e:\\tensor\\pytest\\pytest\\testDef\\helloFile.txt')#without the second parameter the default open mode is only read.
-    helloFile
-    #print(helloFile)
-readOrWriteFile()
+    alllines = helloFile.readlines()
+    for line in alllines:
+        print(line)
+#readOrWriteFile()
+
+def saveThePropertyIntoAShelveFile(): #like save into a map,but it can save into a file for use when the system reboot
+    shelfFile=shelve.open('e:\\tensor\\pytest\\pytest\\testDef\\shelveDateFile')
+    cats=['Zophie','Pooka','Simon']
+    shelfFile['cats']=cats
+    print(type(shelfFile))
+    print(shelfFile['cats'])
+    print(list(shelfFile.keys()))#get the values by key is not a real list,we should transform the result into a list by the function 'list()'
+    print(list(shelfFile.values()))
+    shelfFile.close()
+#saveThePropertyIntoAShelveFile()
