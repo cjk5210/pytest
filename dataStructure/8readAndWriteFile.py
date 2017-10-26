@@ -4,7 +4,7 @@
 # The path of test is 'E:\tensor\pytest\pytest\operateFile' or 'E:\tensor\pytest\pytest\testDef'
 
 import os
-import shelve
+
 
 def getCwd():
     cwd=os.getcwd()
@@ -63,7 +63,7 @@ def readOrWriteFile():
     for line in alllines:
         print(line)
 #readOrWriteFile()
-
+import shelve
 def saveThePropertyIntoAShelveFile(): #like save into a map,but it can save into a file for use when the system reboot
     shelfFile=shelve.open('e:\\tensor\\pytest\\pytest\\testDef\\shelveDateFile')
     cats=['Zophie','Pooka','Simon']
@@ -74,3 +74,13 @@ def saveThePropertyIntoAShelveFile(): #like save into a map,but it can save into
     print(list(shelfFile.values()))
     shelfFile.close()
 #saveThePropertyIntoAShelveFile()
+import random
+def shuffleListOrTuple():
+    oneList=['1','2','3','4']
+    oneLise1=['5','6','7','8']
+    random.shuffle(oneList)
+    random.shuffle(oneLise1)
+    print(oneList)
+    print(oneLise1)
+shuffleListOrTuple()
+
