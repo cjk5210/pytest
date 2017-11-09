@@ -82,7 +82,7 @@ def saveTheLoggingInfoIntoAFile():
     """
     need change the loggingConfig:
     import logging
-    logging. basicConfig( filename=' myProgramLog. txt', level= logging. DEBUG, format=' %(asctime) s - %(levelname) s - %(message) s')
+    logging.basicConfig( filename='myProgramLog.txt', level= logging.DEBUG, format='%(asctime) s - %(levelname) s - %(message) s')
     :return:
     """
     print("import logging\nlogging.basicConfig( filename='myProgramLog.txt', level= logging.DEBUG, format='%(asctime) s - %(levelname) s - %(message) s')")
