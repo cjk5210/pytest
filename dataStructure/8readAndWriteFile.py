@@ -82,5 +82,5 @@ def shuffleListOrTuple():
     random.shuffle(oneLise1)
     print(oneList)
     print(oneLise1)
-shuffleListOrTuple()
+#shuffleListOrTuple()
 

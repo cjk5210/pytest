@@ -34,4 +34,21 @@ def safeDeleteFileOrFolder2():
 
 #safeDeleteFileOrFolder2()
 def walkForTraverseFolder():
-    pass
+    for folderName,subfolders,filenames in os.walk('C:\Windows\Logs'):
+        print('The current folder is '+ folderName)
+        for subfolder in subfolders:
+            print('SUBFOLDER OF '+folderName+': '+subfolder)
+        for filename in filenames:
+            print('FILE INSIDE '+ folderName+': '+filename)
+        print('')
+#walkForTraverseFolder()
+import traceback
+def saveTheExceptionTracebackInfoIntoAFile():
+    try:
+        raise Exception('This is the error message.')
+    except:
+        errorFile=open('errorInfo.txt','w')
+        errorFile.write(traceback.format_exc())
+        errorFile.close()
+        print('The traceback info was written to errorInfo.txt')
+saveTheExceptionTracebackInfoIntoAFile()
