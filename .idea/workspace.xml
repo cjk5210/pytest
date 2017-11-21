@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1e591ee-a856-4998-b6d0-3732c212c397" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataStructure/example.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataStructure/13dealwithpdf.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataStructure/14dealwithcsvandjson.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataStructure/15MultiThreading.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataStructure/15dealwithtime.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataStructure/geckodriver.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learningnotes/python_learning_notes.docx" afterPath="$PROJECT_DIR$/learningnotes/python_learning_notes.docx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -114,7 +110,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="127" />
     <option name="y" value="66" />
     <option name="width" value="1086" />
@@ -560,17 +556,23 @@
       <option name="project" value="LOCAL" />
       <updated>1510910568893</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="finish one book&#10;&lt;Python&gt;">
+      <created>1511256892059</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1511256892060</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="127" y="66" width="1086" height="678" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2364486" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1852123" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40140846" sideWeight="0.27943924" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40140846" sideWeight="0.7205607" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35962147" sideWeight="0.27818447" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35962147" sideWeight="0.7218155" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29516995" sideWeight="0.4929006" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -619,7 +621,8 @@
     <MESSAGE value="unit10 some skill about python how to deal exception.&#10;unit11 start to learn crawl info from web." />
     <MESSAGE value="finish unit11&#10;unit11 start to learn crawl info from web." />
     <MESSAGE value="unit12 start to learn how to deal with excel" />
-    <option name="LAST_COMMIT_MESSAGE" value="unit12 start to learn how to deal with excel" />
+    <MESSAGE value="finish one book&#10;&lt;Python&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish one book&#10;&lt;Python&gt;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
